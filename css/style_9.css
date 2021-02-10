@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 150px;
+}
+
+.landscape img {
+  transition: 3s;
+}
+
+.landscape img {
+  width: 300px;
+}
+
+.landscape:hover img {
+  filter: grayscale(0.7);
+  filter: sepia(0.7);
+  transform: scale(1.8);
+  border-radius: 25px;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.aereo {
+  transition: 3s;
+}
+
+.aereo img {
+  width: 500px;
+}
+
+.aereo:hover {
+  filter: grayscale(0.5);
+  filter: sepia(0.5);
+}

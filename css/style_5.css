@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+}
+
+.quadrato {
+  height: 100px;
+  width: 100px;
+  background: red;
+  transition: 2s;
+}
+
+.quadrato:hover {
+  transform: scale(1.5);
+}
+
+.quadrato:active {
+  transform: scale(0.5);
+}

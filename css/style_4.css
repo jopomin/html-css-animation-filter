@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.quadrato {
+  height: 200px;
+  width: 200px;
+  background: red;
+  transition: 2s;
+}
+
+.quadrato:hover {
+  visibility: hidden;
+}

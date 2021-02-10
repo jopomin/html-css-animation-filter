@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.landscape img {
+  transition: 3s;
+}
+
+.landscape img {
+  width: 500px;
+}
+
+.landscape:hover img {
+  filter: grayscale(0.7);
+  filter: sepia(0.7);
+  border-radius: 25px;
+}

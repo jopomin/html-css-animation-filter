@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.cerchio {
+  font-size: 100px;
+}
+
+.cerchio:hover {
+  animation-name: gira;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+@keyframes gira {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  75% {
+    transform: rotate(315deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+
+}

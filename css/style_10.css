@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.cerchio {
+  font-size: 100px;
+  animation-name: gira;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gira {
+
+  0% {
+    transform: rotate(1turn);
+  }
+
+}
