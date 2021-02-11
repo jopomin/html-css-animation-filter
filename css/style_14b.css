@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.road {
+  background-image: url('../img/route66.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(100, 0, 0, 0.3);
+}
+
+.balla {
+  position: absolute;
+  bottom: 0:
+  left: 0;
+  width: 200px;
+  z-index: 999;
+}
+
+.balla img {
+  width: 100%;
+}
+
+.balla {
+  animation: gira linear infinite 6s;
+}
+
+@keyframes gira {
+
+  0% {
+    bottom: 0;
+    left: 0;
+  }
+
+  20% {
+    bottom: 10%;
+    left: 20%;
+  }
+
+  40% {
+    bottom: 5%;
+    left: 40%;
+    }
+
+  60% {
+    bottom: 10%;
+    left: 60%;
+    }
+
+  80% {
+    bottom: 5%;
+    left: 80%;
+    }
+
+  100% {
+    bottom: 10%;
+    left: 100%;
+    transform: rotate(1turn);
+  }
+
+}
